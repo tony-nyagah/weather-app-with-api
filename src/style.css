@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    background-color: #f5f0e8;
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.08) 1px,
+        transparent 1px
+    );
+    background-size: 24px 24px;
+}
+
+@keyframes bounce-block {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
